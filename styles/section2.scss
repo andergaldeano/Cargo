@@ -1,0 +1,94 @@
+@import 'variables.scss';
+
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p{
+    font-size: $smallFont;
+  }
+
+  .title{
+    text-align: center;
+    width: 60%;
+  }
+  .buttons{
+    width: 100%;
+    .btn {
+      margin: 2px;
+    }
+  }
+  .pictures{
+    width: 100%;
+      div{
+      text-align: center;
+      }
+      img{
+        padding: 20px;
+      }
+      .circle{
+        background: green;
+        border-radius: 30px;
+        height: 30px;
+        width: 30px;
+        margin: auto;
+      }
+      .arrow{
+        padding-top: 60px;
+      }
+      p{
+        height: 50px;
+      }
+
+  }
+  .contact{
+    width: 100%;
+    padding-top: 80px;
+  }
+
+  .phoneButton{
+    border-style: solid;
+    border-color: grey;
+    padding: 5px;
+    color:grey;
+  }
+}
+
+
+//RESPONSIVE
+
+@media (min-width: 320px) and (max-width: 800px) {
+
+  .main-container{
+    .pictures{
+      display: inline-block;
+
+      div{
+        width: 100%;
+        text-align: center;
+      }
+      .arrow{
+        visibility: hidden;
+        padding: 0px;
+        height: 0px;
+      }
+      .circle{
+        visibility: hidden;
+        padding: 0px;
+        height: 0px;
+      }
+    }
+
+    .contact{
+      display: inline-block;
+
+      div{
+        margin: 10px;
+        text-align: center;
+        font-size: 11px;
+      }
+    }
+  }
+}

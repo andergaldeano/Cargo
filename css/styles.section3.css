@@ -1,0 +1,28 @@
+.extra-info-container .text {
+  width: 100%; }
+  .extra-info-container .text div {
+    width: 16%;
+    margin: 5px;
+    line-height: 2.5;
+    text-align: left; }
+  .extra-info-container .text h4 {
+    color: #3399ff;
+    font-size: 14px; }
+  .extra-info-container .text p {
+    color: darkgray;
+    font-size: 14px; }
+
+.extra-info-container .links {
+  width: 100%; }
+  .extra-info-container .links div {
+    margin: 10px; }
+  .extra-info-container .links a {
+    color: #3399ff; }
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .extra-info-container .text {
+    display: inline-block; }
+    .extra-info-container .text div {
+      width: 100%;
+      text-align: center;
+      margin: 40px; } }

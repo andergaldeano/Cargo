@@ -1,0 +1,6 @@
+.last-container {
+  background: grey; }
+
+@media (min-width: 320px) and (max-width: 700px) {
+  .last-container img {
+    width: 80px; } }

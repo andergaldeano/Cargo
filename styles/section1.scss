@@ -1,0 +1,54 @@
+@import 'variables.scss';
+
+.background-grey{
+  background:  #e6e6e6;
+  width: 100%;
+}
+
+.relative {
+  text-align: center;
+  width: 24%;
+  font-size: 17px;
+}
+
+.container-icons {
+  .circlePlusImg {
+    height: 100px;
+     background-image: url("./images/Oval12.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div {
+    h3{
+      font-size: 20px;
+    }
+    p{
+      color: $grey;
+      line-height: 1.5;
+    }
+
+    .blue{
+      line-height: 2.5;
+      color: $blue;
+    }
+  }
+}
+
+
+//RESPONSIVE
+
+@media (min-width: 320px) and (max-width: 800px) {
+
+  .container-icons{
+    display: inline-block;
+    .relative{
+      margin: 40px;
+      text-align: center;
+      width: 100%;
+      }
+    }
+}

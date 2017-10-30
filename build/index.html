@@ -1,0 +1,630 @@
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <style>.background{width:100%;background-image:url(./images/background.jpg);background-size:cover}.center{text-align:center}.margin{width:85%;margin:auto}.padding{padding-top:40px;padding-bottom:40px}.flex-start,.space-around-row,.space-between{display:flex;flex-direction:row;justify-content:space-around}.flex-start,.space-between{width:100%;justify-content:space-between}.flex-start{justify-content:flex-start}.flex-center,.flex-end{display:flex;flex-direction:row;justify-content:flex-end}.flex-center{justify-content:center}</style>
+  <style>.left{float:left}.header{color:#fff;margin:auto}.header .header-top{text-align:center;font-size:14px}.header .header-top .firstBtn{background:#fff;font-size:14px;color:orange;border-style:solid;border-color:orange;clear:both}.header .header-top p{float:right}.header .header-top img{clear:both}.header .medium-header .ticks div{padding-right:8px;font-size:14px}.header .secondBtn{background:#39f;color:#fff;margin:0 1px;display:flex;align-items:center;padding:10px 20px;border:0;cursor:pointer}.header .secondBtn img{margin-right:10px}.header .secondBtn:hover{opacity:.8}.header-secondRow{margin:auto;font-size:10px}.getCoute{background:orange;margin:auto}.whiteContainer.hidden{height:0;padding:0}.whiteContainer{clear:both;background:#fff;border-style:solid;border-color:#39f;padding:20px;font-size:14px;color:#000;transition:all .5s;overflow:hidden}.whiteContainer .arrows{background:#000;border-radius:15px;text-align:center}@media (min-width:320px) and (max-width:800px){.header-secondRow,.header-top .none,.header-top p,.whiteContainer .firstRow{display:none}.header-top img{margin:0}.header-top div{margin:0;padding-top:5px}.left{float:none;padding-bottom:20px}.whiteContainer .secondRow{text-align:center}.whiteContainer .secondRow div{margin:5px}.whiteContainer .thirdRow{display:none}}</style>
+  <style>.background-grey{background:#e6e6e6;width:100%}.relative{text-align:center;width:24%;font-size:17px}.container-icons .circlePlusImg{height:100px;background-image:url(./images/Oval12.svg);background-repeat:no-repeat;background-position:center center;display:flex;justify-content:center;align-items:center}.container-icons div h3{font-size:20px}.container-icons div p{color:gray;line-height:1.5}.container-icons div .blue{line-height:2.5;color:#39f}@media (min-width:320px) and (max-width:800px){.container-icons{display:inline-block}.container-icons .relative{margin:40px;text-align:center;width:100%}}</style>
+  <style>.main-container{display:flex;flex-direction:column;align-items:center}.main-container p{font-size:14px}.main-container .title{text-align:center;width:60%}.main-container .buttons,.main-container .pictures{width:100%}.main-container .buttons .btn{margin:2px}.main-container .pictures div{text-align:center}.main-container .pictures img{padding:20px}.main-container .pictures .circle{background:green;border-radius:30px;height:30px;width:30px;margin:auto}.main-container .pictures .arrow{padding-top:60px}.main-container .pictures p{height:50px}.main-container .contact{width:100%;padding-top:80px}.main-container .phoneButton{border-style:solid;border-color:gray;padding:5px;color:gray}@media (min-width:320px) and (max-width:800px){.main-container .contact,.main-container .pictures{display:inline-block}.main-container .pictures div{width:100%;text-align:center}.main-container .pictures .arrow,.main-container .pictures .circle{visibility:hidden;padding:0;height:0}.main-container .contact div{margin:10px;text-align:center;font-size:11px}}</style>
+  <style>.extra-info-container .links,.extra-info-container .text{width:100%}.extra-info-container .text div{width:16%;margin:5px;line-height:2.5;text-align:left}.extra-info-container .text h4{color:#39f;font-size:14px}.extra-info-container .text p{color:#a9a9a9;font-size:14px}.extra-info-container .links div{margin:10px}.extra-info-container .links a{color:#39f}@media (min-width:320px) and (max-width:800px){.extra-info-container .text{display:inline-block}.extra-info-container .text div{width:100%;text-align:center;margin:40px}}</style>
+  <style>.last-container{background:gray}@media (min-width:320px) and (max-width:700px){.last-container img{width:80px}}</style>
+
+
+
+</head>
+
+<body>
+  <script type="text/javascript">var openMenu=function(){document.querySelector(".whiteContainer").classList.toggle("hidden")};</script>
+
+<!-- HEADER -->
+
+  <div class="background padding header">
+    <div class="margin">
+
+    <!-- FIRST LINKS -->
+
+      <div class="header-top row">
+
+        <div class="col-sm-2">
+          <img src="images/Fill42.svg" alt="phone"> <p>CONTACT US</p>
+        </div>
+
+        <div class="col-sm-2 none">
+        </div>
+
+        <div class="col-sm-5 row">
+          <div class="col-sm-3">
+            <img src="images/point.svg" alt="point"> <p>Tracking</p>
+          </div>
+          <div class="col-sm-7">
+            <img src="images/Fill56.svg" alt="phone"> <p>Weight and volume calculator</p>
+          </div>
+          <div class="col-sm-2 none">
+            <p>ENGLISH</p>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <button type="button" class="btn firstBtn" height="20px">REGISTER</button>
+        </div>
+
+      </div>
+
+      <!-- <div class="header-top space-around-row">
+        <div class="right-side flex-start">
+          <p>    <img src="images/Fill42.svg" alt="phone">CONTACT US</p>
+        </div>
+
+        <div class="left-side flex-end">
+          <div>
+            <p>Tracking</p>
+          </div>
+          <div>
+            <p> Weight and volume calculator</p>
+          </div>
+          <div>
+            <p>ENGLISH</p>
+          </div>
+          <div>
+            <p>REGISTER</p>
+          </div>
+        </div>
+
+      </div> -->
+
+      <!-- SECOND LINKS -->
+
+
+      <div class="header-secondRow row">
+        <div class="col-sm-9 row">
+          <div class="col-sm-8 row">
+            <div class="col-sm-3">
+                <p>OCEAN FREIGHT</p>
+            </div>
+            <div class="col-sm-3">
+              <p>AIR FREIGHT</p>
+            </div>
+            <div class="col-sm-3">
+                <p>MOVING SHIPPING</p>
+            </div>
+            <div class="col-sm-3">
+              <p>OTHER SERVICES</p>
+            </div>
+          </div>
+          <div class="col-sm-4"></div>
+        </div>
+        <div class="col-sm-3 row">
+          <div class="col-sm-6 center">
+            <p>ABOUT US</p>
+          </div>
+          <div class="col-sm-6 center">
+            <p> HELP </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- <div class="header-top space-around-row">
+        <div class="right-side flex-start">
+          <div>
+              <p>OCEAN FREIGHT</p>
+          </div>
+          <div>
+              <p>AIR FREIGHT</p>
+          </div>
+          <div>
+              <p>MOVING SHIPPING</p>
+          </div>
+          <div>
+            <p>OTHER SERVICES</p>
+          </div>
+        </div>
+        <div class="left-side flex-end">
+          <div>
+            <p>ABOUT US</p>
+          </div>
+          <div>
+            <p>HELP</p>
+          </div>
+        </div>
+      </div> -->
+    <!-- </div> -->
+
+    <!-- TITLE -->
+
+    <div class="margin medium-header padding">
+      <div>
+        <h1>
+          WE MOVE BUSINESS CARGO
+          <br>
+          AROUND THE WORLD
+        </h1>
+      </div>
+      <div class="flex-start ticks">
+        <div>
+          <p><img src="images/Shape.svg" alt="tick"> Best prices with total transparency</p>
+        </div>
+        <div>
+          <p><img src="images/Shape.svg" alt="tick">Easy-to-fill process, and we help you out!</p>
+        </div>
+        <div>
+          <p><img src="images/Shape.svg" alt="tick">Login to our Client Area and track your cargo</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- BUTTONS -->
+
+
+    <div class="margin">
+      <div>
+        <div class="left">
+          <button onclick='openMenu()' type="button" class="btn secondBtn" height="20px">
+            <img src="images/Group8.svg" height="25px"/>
+             OCEAN FREIGHT
+          </button>
+        </div>
+
+        <div class="left">
+          <button type="button" class="btn secondBtn" height="20px">
+            <img src="images/Group10.svg" height="25px"/>
+             AIR FREIGHT
+          </button>
+        </div>
+
+        <div class="left">
+          <button type="button" class="btn secondBtn" height="20px">
+            <img src="images/Fill115.svg" height="25px"/>
+            MOVING SHIPPING
+          </button>
+        </div>
+      </div>
+
+      <!-- WHITE CONTAINER -->
+
+      <div class="whiteContainer hidden">
+
+          <!-- FIRST ROW -->
+
+        <div class="row firstRow">
+          <div class="col-sm-3">
+            <p>Origin:</p>
+          </div>
+
+          <div class="col-sm-1">
+          </div>
+
+          <div class="col-sm-3">
+            <p>Destination:</p>
+          </div>
+
+          <div class="col-sm-3">
+            <p>Aprox departure date:</p>
+          </div>
+
+          <div class="col-sm-2">
+          </div>
+        </div>
+
+        <!-- SECOND ROW -->
+
+        <div class="row secondRow">
+          <div class="col-sm-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Tipe in any city" aria-describedby="basic-addon1" style="height:50px">
+            </div>
+          </div>
+
+          <div class="col-sm-1 arrows">
+            <img src="images/arrows.svg" alt="arrows" height="50px">
+
+          </div>
+
+          <div class="col-sm-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Tipe in any city" aria-describedby="basic-addon1" style="height:50px">
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="input-group">
+              <input type="date" class="form-control" placeholder="select date" aria-describedby="basic-addon1" style="height:50px">
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <button type="button" class="btn btn-primary getCuote" height="60px">GET A CUOTE</button>
+          </div>
+        </div>
+
+        <!-- THIRD ROW -->
+
+        <div class="row thirdRow">
+          <div class="col-sm-3">
+            <p><img src="images/point1.png" alt="" height="14px"> 90230 - USA</p>
+          </div>
+
+          <div class="col-sm-9">
+          </div>
+        </div>
+        <!-- <div class="col-sm-3">
+          <div>
+            <p>Origin:</p>
+          </div>
+          <div>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Tipe in any city" aria-describedby="basic-addon1">
+            </div>
+          </div>
+          <div>
+
+          </div>
+        </div>
+        <div class="col-sm-1">
+          <div>
+
+          </div>
+          <div>
+
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div>
+            <p>Destination:</p>
+          </div>
+          <div>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Tipe in any city" aria-describedby="basic-addon1">
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div>
+            <p>Aprox departure date:</p>
+          </div>
+          <div>
+            <input id="date" type="date" value="select date">
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div>
+
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary getCuote">GET A CUOTE</button>
+          </div>
+        </div> -->
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <!-- *************************** -->
+<!-- .......... 1 SECTION ..........-->
+  <!-- *************************** -->
+
+
+<div class="background-grey padding">
+  <div class='margin space-around-row container-icons'>
+
+    <!-- FIRST INFO -->
+
+    <div class="relative">
+      <div class="circlePlusImg">
+      <img src="images/Group8.svg" width="30px"/>
+      </div>
+      <h3>Ocean Freighth </h3>
+      <p>
+        Proin pharetra pharetra neque
+        vitae tempus. Ut dignissim sapien
+        nec.
+      </p>
+      <p class="blue">
+        What do we do for you & <br>
+        advantages <br>
+        FCL (Full Containers)
+      </p>
+      <button type="button" class="btn btn-outline-info">MORE DETAILS</button>
+    </div>
+
+    <!-- SECOND INFO -->
+
+    <div class="relative">
+      <div class="circlePlusImg">
+      <img src="images/Fill115.svg" width="40px"/>
+      </div>
+      <h3>Ocean Freighth </h3>
+      <p>
+        Proin pharetra pharetra neque
+        vitae tempus. Ut dignissim sapien
+        nec.
+      </p>
+      <p class="blue">
+        What do we do for you & <br>
+        advantages <br>
+        FCL (Full Containers)
+      </p>
+        <button type="button" class="btn btn-outline-info">MORE DETAILS</button>
+    </div>
+
+    <!-- THIRD INFO -->
+
+    <div class="relative">
+      <div class="circlePlusImg">
+      <img src="images/Group.svg" width="40px"/>
+      </div>
+      <h3>Ocean Freighth y mas</h3>
+      <p>
+        Proin pharetra pharetra neque
+        vitae tempus. Ut dignissim sapien
+        nec.
+      </p>
+      <p class="blue">
+        What do we do for you & <br>
+        advantages <br>
+        FCL (Full Containers)
+      </p>
+        <button type="button" class="btn btn-outline-info">MORE DETAILS</button>
+    </div>
+
+    <!-- FORD INFO -->
+
+    <div class="relative">
+      <div class="circlePlusImg">
+      <img src="images/Group10.svg" width="40px"/>
+      </div>
+      <h3>Ocean Freighth </h3>
+      <p>
+        Proin pharetra pharetra neque
+        vitae tempus. Ut dignissim sapien
+        nec.
+      </p>
+      <p class="blue">
+        What do we do for you & <br>
+        advantages <br>
+        FCL (Full Containers)
+      </p>
+        <button type="button" class="btn btn-outline-info">MORE DETAILS</button>
+    </div>
+  </div>
+</div>
+
+
+    <!-- *************************** -->
+<!-- .......... 2 SECTION .......... -->
+    <!-- *************************** -->
+
+
+  <div class="main-container margin padding">
+
+    <!-- TITLE -->
+
+    <div class="title">
+      <h2>Ocean Freight <strong>Incoterms</strong></h2>
+      <p>
+      Ocean freight is the logistics of exporting and importing cargo by shipping lines. Goods are packed
+      in shipping containers. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+
+    <!-- BUTTONS -->
+
+    <div class="buttons flex-center">
+      <a href="#" class="btn btn-secondary" role="button" aria-disabled="true" style="height:35px">FOB</a>
+      <a href="#" class="btn btn-secondary" role="button" aria-disabled="true" style="height:35px" >CFR</a>
+      <a href="#" class="btn btn-secondary" role="button" aria-disabled="true" style="height:35px">CIF</a>
+      <a href="#" class="btn btn-secondary" role="button" aria-disabled="true" style="height:35px">DAT</a>
+      <a href="#" class="btn btn-secondary" role="button" aria-disabled="true" style="height:35px">DAP</a>
+    </div>
+
+  <!-- INFO AND PICTURES -->
+
+    <div class="pictures flex-center">
+
+            <!-- FIRST INFO -->
+
+      <div>
+        <img src="images/GroupCopy.svg" alt="" height="100px">
+        <p>
+          Pickup and transportation to
+          <br>
+          loading terminal
+        </p>
+        <div class="circle">
+        </div>
+      </div>
+
+            <!-- ARROW -->
+
+      <div class="arrow">
+        <img src="images/arrow.png" alt="arrow" width="60px">
+      </div>
+
+            <!-- SECOND INFO -->
+
+      <div>
+        <img src="images/GroupCopy.svg" alt="" height="100px">
+        <p>
+        Origin port - Load
+        <br>
+        container on board
+        </p>
+        <div class="circle">
+        </div>
+      </div>
+
+            <!-- ARROW -->
+
+      <div class="arrow">
+        <img src="images/arrow.png" alt="arrow" width="60px">
+      </div>
+
+            <!-- THIRD INFO -->
+
+      <div>
+        <img src="images/GroupCopy4.svg" alt="" height="100px">
+        <p>
+        Vessel transportation
+        </p>
+        <div class="circle">
+        </div>
+      </div>
+
+            <!-- ARROW -->
+
+      <div class="arrow">
+        <img src="images/arrow.png" alt="arrow" width="60px">
+      </div>
+
+            <!-- FORD INFO -->
+
+      <div>
+        <img src="images/GroupCopy4.svg" alt="" height="100px">
+        <p>
+        Insurance documentation
+        </p>
+        <div class="circle">
+        </div>
+      </div>
+
+    </div>
+
+  <!-- CONTACT -->
+
+    <div class="contact space-between">
+      <div>
+        <a href="#" class="phoneButton" >
+          <img src="images/phone.png" alt="" height="14px">
+           USA +1 305 964 8731  SPAIN +34 91 198 09 90
+        </a>
+      </div>
+      <div>
+        <img src="images/twitter.png" alt="" height="50px">
+        <img src="images/face.png" alt="" height="50px">
+        <img src="images/linke.png" alt="" height="50px">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- *************************** -->
+<!-- .......... 3 SECTION ............ -->
+  <!-- *************************** -->
+
+
+  <hr>
+
+  <div class="extra-info-container margin padding">
+
+  <!-- INITIAL INFO -->
+
+    <div class="text flex-start">
+
+            <!-- FIRST INFO -->
+
+      <div>
+        <h4> OCEAN FREIGHT </h4>
+        <p>
+          What do we do for you... <br> FCL (Full Containers) <br>
+          LCL or grouping <br> Import/Export <br> High Volume <br> TECO for inland origin ...
+        </p>
+      </div>
+
+            <!-- SECOND INFO -->
+
+      <div>
+        <h4> AIR FREIGTH </h4>
+        <p>
+          What do we do for you... <br> Import/Export <br> High Volume
+       </p>
+      </div>
+
+            <!-- THIRD INFO -->
+
+      <div>
+        <h4>MOVING SHIPPING </h4>
+        <p>
+          What do we do for you... <br> Individuals <br> Relocation moving ...
+        </p>
+      </div>
+
+            <!-- FORD INFO -->
+
+      <div>
+        <h4>OTHER SERVICES </h4>
+        <p>
+          Our Platform <br> Personalized servive <br> Documentation and...
+          <br> Payment processing <br> Cargo Insurance <br> Paleting services
+        </p>
+      </div>
+
+            <!-- FIFTH INFO -->
+
+      <div>
+        <h4>HELP</h4>
+        <p>
+          Help for Ocean Freight <br> Help for air freight <br> Help for international...
+        </p>
+      </div>
+
+            <!-- EXTRA DIV -->
+
+      <div>
+      </div>
+
+    </div>
+
+  <!-- BOTTOM LINKS -->
+
+    <div class="links flex-start">
+
+            <!-- FIRST LINK -->
+
+      <div>
+        <img src="" alt="">
+        <a href="">
+          <img src="images/point1.png" alt="" height="14px">
+          Tracking
+        </a>
+      </div>
+
+            <!-- SECOND LINK -->
+
+      <div>
+        <img src="" alt="">
+        <a href="">
+          <img src="images/weight.svg" alt="" height="14px">
+          Weight and volume calculator
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- *************************** -->
+  <!-- ..........FOOTER .......... -->
+  <!-- *************************** -->
+
+
+  <footer>
+  <div class="last-container flex-end">
+    <div>
+      <img src="images/Bitmap.png" alt="" width="150px">
+    </div>
+    <div class="prueba">
+      <img src="images/Bitmap.png" alt="" width="150px">
+    </div>
+    <div>
+      <img src="images/Bitmap.png" alt="" width="150px">
+    </div>
+    <div>
+      <img src="images/Bitmap.png" alt="" width="150px">
+    </div>
+  </div>
+  </footer>
+
+
+</body>

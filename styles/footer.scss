@@ -1,0 +1,16 @@
+@import 'variables.scss';
+
+.last-container {
+  background: grey;
+}
+
+//RESPONSIVE
+
+@media (min-width: 320px) and (max-width: 700px) {
+
+  .last-container{
+    img{
+      width: 80px;
+    }
+  }
+}
